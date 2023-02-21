@@ -1,0 +1,22 @@
+.userlogin-wrapper {
+  padding: 30% 5%;
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+  height: 100vh;
+  font-size: 1.5rem;
+}
+.userlogin-wrapper label{
+  font-size: 1.2rem;
+}
+.userlogin-wrapper input {
+  margin-bottom: 20px;
+}
+.userlogin-wrapper button{
+  font-size: 1.6rem;
+}
+
+.userlogin-wrapper .checkbox input{
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
