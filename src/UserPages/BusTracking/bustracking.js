@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './App.css';
+import './bustracking.css';
 
-function App() {
+function bustracking() {
   const [busTimings, setBusTimings] = useState([
     { time: '08:00', destination: 'Central Station', status: 'On Time' },
     { time: '08:30', destination: 'City Square', status: 'Delayed' },
@@ -61,4 +61,4 @@ function App() {
   );
 }
 
-export default App;
+export default bustracking;
