@@ -1,0 +1,20 @@
+.userlogin-wrapper text-center{
+    padding: 30% 5%;
+    background-color: #85ffbd;
+    background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 100vh;
+    font-size: 1.5rem;
+}
+
+
+.userlogin-wrapper text-center label{
+    font-size: 1.2rem;
+  }
+  .userlogin-wrapper text-center input {
+    margin-bottom: 20px;
+  }
+  .userlogin-wrapper text-center button{
+    font-size: 1.6rem;
+  }

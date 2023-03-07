@@ -1,0 +1,136 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 50px;
+  }
+  
+  .table-container {
+    margin-top: 50px;
+  }
+  
+  .timing-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 10px;
+  }
+  
+  .timing-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .time {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .destination {
+    font-size: 20px;
+  }
+  
+  .status {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    width: 80px;
+  }
+  
+  .on-time {
+    background-color: green;
+    color: white;
+  }
+  
+  .delayed {
+    background-color: red;
+    color: white;
+  }
+  
+  /* add colour to each station */
+  .on-time {
+    background-color: green;
+    color: white;
+  }
+  
+  /* add a background color for each row */
+  .timing-row:nth-child(odd) {
+    background-color: #99f2e6;
+  }
+  
+  /* add a background color for each row */
+  .timing-row:nth-child(even) {
+    background-color: #a1f4e9;
+  }
+  
+  /* move search box to the left corner */
+  .search-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  /* add a border to the search box */
+  /* .search-box {
+    border: 1px solid #1f0580;
+  } */
+  
+  /* move search button inside the search box */
+  .search-button {
+    position: absolute;
+    top: 0;
+    left: 220px;
+    /* background: #99f2e6; */
+  }
+  /* add a background color in search button */
+  
+  
+  /* add a border to the search button */
+  .search-button {
+    border: 1px solid;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    /* background-color: aqua; */
+  }
+  
+  
+  
+  /* change font style of search */
+  .search-box {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .search-box {
+    font-size: 16px;
+  
+  }
+  
+  /* add a background color to the search box */
+  /* .search-box {
+    background-color: #99f2e6;
+  } */
+  
+  /* change colour of h1 */
+  h1 {
+    color: #0b0797;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* change font style of all the rows */
+  .timing-row {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  
+  /* change color of the search button to blue */
+  .search-button {
+    
+    color: white;
+  }
